@@ -59,7 +59,7 @@ Set `TAG_PASSWORDS = {}` to run in open/dev mode where any password is accepted.
 ## Running the Dashboard
 
 ```bash
-python3 TemplateManager.py.py
+python3 TemplateManager.py
 ```
 
 The dashboard will start on `http://localhost:8080` and is accessible from any browser on your network.

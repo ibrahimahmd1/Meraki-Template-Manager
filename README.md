@@ -32,7 +32,7 @@ pip install pywebio requests
 
 ## Configuration
 
-Open `meraki_dashboard33.py` and update the following near the top of the file:
+Open `TemplateManager.py` and update the following near the top of the file:
 
 ### 1. API Key
 
@@ -59,7 +59,7 @@ Set `TAG_PASSWORDS = {}` to run in open/dev mode where any password is accepted.
 ## Running the Dashboard
 
 ```bash
-python3 meraki_dashboard33.py
+python3 TemplateManager.py.py
 ```
 
 The dashboard will start on `http://localhost:8080` and is accessible from any browser on your network.
@@ -95,7 +95,7 @@ Vendors can only see changelog entries for their own networks. The changelog can
 ## File Structure
 
 ```
-meraki_dashboard33.py     # Main application
+TemplateManager.py.py     # Main application
 meraki_changelog.json     # Auto-created on first bind/unbind action
 README.md
 ```

@@ -95,7 +95,7 @@ Vendors can only see changelog entries for their own networks. The changelog can
 ## File Structure
 
 ```
-TemplateManager.py.py     # Main application
+TemplateManager.py        # Main application
 meraki_changelog.json     # Auto-created on first bind/unbind action
 README.md
 ```
